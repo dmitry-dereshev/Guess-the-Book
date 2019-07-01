@@ -1,4 +1,4 @@
-# guess-the-book-public
+# Project Guess the Book Scripts
 Scripts from Guess the Book project - training an AI to guess author names based on symbol frequency of their works.
 
 The scripts work based on Project Gutenberg's library of public domain works. You can download the metadata about the books here: http://www.gutenberg.org/wiki/Gutenberg:Offline_Catalogs
