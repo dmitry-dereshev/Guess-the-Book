@@ -23,3 +23,10 @@ Libraries you'll need:
 - pandas: http://pandas.pydata.org
 - matplotlib.pyplot: https://matplotlib.org
 - numpy (recommended to import separately from matplotlib): https://www.numpy.org
+
+
+3. frequentize.py:
+Takes a path where .txt files are stored, returns a .csv with grequency tables per .txt file.
+
+Libraries you'll need:
+- pandas: http://pandas.pydata.org
