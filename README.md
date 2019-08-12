@@ -6,14 +6,12 @@ And the instructions about how to get the actual books here: http://www.gutenber
 
 Included scripts:
 
-1. rdf-to-csv.py: 
+01_rdf_to_csv.py: 
 Takes a path where .rdf/xml files are stored, extracts author names, years of birth & death, and titles of their works, puts them into a Pandas dataframe, and saves them as a .csv file in the location of your choice.
 
-Libraries you'll need:
+Libraries used:
 - rdflib: https://github.com/RDFLib/rdflib
 - pandas: http://pandas.pydata.org
-
--- WARNING: this script is not optimised. It may take a while to process the workload depending on the number of .rdf/xml files, and the capabilities of your machine. However, it does the job eventually, if you leave it to it.
 
 
 2. book-meta-analysis.py:
