@@ -1,4 +1,5 @@
 # From Guess the Book project by Dmitry Dereshev. MIT Licence 2019.
+# https://github.com/dmitry-dereshev/guess-the-book-public
 
 # Takes in a bunch of .rdf files from a given folder, extracts info from them, 
 # puts that info into a Pandas DataFrame, then stores it as a csv.
