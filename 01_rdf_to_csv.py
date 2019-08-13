@@ -78,7 +78,8 @@ def rdf_to_csv(input_path, output_path, verbose=1):
 
 # Point at the top folder with .rdf files
 input_path = 'path/to/top/folder/with/.rdf/files'
+
 # Point at where you want the extracted data to be saved
 output_path = 'path/to/output/file.csv'
 
-rdf_to_csv(input_path, output_path)
+#rdf_to_csv(input_path, output_path)
