@@ -17,3 +17,9 @@ Takes a path where .txt files are stored, returns a .csv with symbol frequency t
 
 04_merge.py:
 Merges the data from 01_rdf_to_csv.py and 03_frequentize.py into a single table, cleans empty entries.
+
+05_scaling_splitting_sets.py:
+Scales the dataset from 4_merge.py [0, 1], and splits it into training sets based on the number of books per author. Fills in empty values with 0s, and removes entries with empty frequency rows.
+
+06_mic_trees_feature_selection.py:
+Takes in the split sets from 05_scaling_splitting_sets.py, identifies top features based on mutual info classifier and classification trees, and saves the new datasets with those features.
