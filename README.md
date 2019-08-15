@@ -4,6 +4,7 @@ Scripts from Guess the Book project - training an AI to guess author names based
 The scripts work based on Project Gutenberg's library of public domain works. You can download the metadata about the books here: http://www.gutenberg.org/wiki/Gutenberg:Offline_Catalogs
 And the instructions about how to get the actual books here: http://www.gutenberg.org/wiki/Gutenberg:Mirroring_How-To (mirroring the site) and here: http://www.gutenberg.org/wiki/Gutenberg:Information_About_Robot_Access_to_our_Pages (downloading a specific subset of books).
 
+
 Included scripts:
 
 01_rdf_to_csv.py: 
@@ -23,3 +24,6 @@ Scales the dataset from 4_merge.py [0, 1], and splits it into training sets base
 
 06_mic_trees_feature_selection.py:
 Takes in the split sets from 05_scaling_splitting_sets.py, identifies top features based on mutual info classifier and classification trees, and saves the new datasets with those features.
+
+07_AI_tests.py:
+Takes the datasets from 05_scaling_splitting_sets.py, runs them through 4 AIs (neural net, classification trees, SVMs, Gaussian Bayes) with 10-fold cross-validation, reports on the accuracy scores per AI per dataset, and saves the report as a .csv file.
