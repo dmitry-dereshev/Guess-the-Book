@@ -9,8 +9,8 @@ I've included the following datasets to play with:
 ### 01_Raw Metadata_+_Symbol_Frequency_Set.csv
 The initial merged dataset from 04_merge.py. Columns are:
 - Author (author full names)
-- Birthdate (year of author's birth - may not consistent for a given author)
-- Deathdate (year of author's death  - may not consistent for a given author)
+- Birthdate (year of author's birth - may not be consistent for a given author)
+- Deathdate (year of author's death  - may not be consistent for a given author)
 - Work_Title (name of the book)
 - 243 columns of symbol frequencies - dense in the middle, sparse on either side.
 
